@@ -8,8 +8,10 @@ console.log(add(1,2));
 //console.log(sum(2,3));
 
 var factorialVar = function factorial(n){
+    if (n <= 1) {
+        return 1;
+    }
     return n * factorial(n-1);
-    //무한으로 가니까 오류남
 }
 
 console.log(factorialVar(4));
