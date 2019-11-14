@@ -16,3 +16,7 @@ console.log(me.getName());
 me.setName("iamyoung");
 console.log(me.getName());
 
+var my = new Person("me");
+var you = new Person("you");
+console.log(my.getName());
+console.log(you.getName());
